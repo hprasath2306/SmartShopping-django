@@ -14,7 +14,7 @@
     <div class="card">
       <div class="card-body">
         <h4 class="card-title mb-4">Billing Address</h4>
-        <form action="" method="post">
+        <form action="{% url 'place_order' %}" method="post">
             {% csrf_token %}
             <div class="form-row">
                 <div class="col form-group">
@@ -91,8 +91,8 @@
                                     <a href="{{ cart.product.get_url }}" class="title text-dark">{{cart.product.product_name}}</a>
                 
                                     <p class="text-muted small">
-                                        {% if cart.variations.all %}
-                                            {% for item in cart.variations.all %}
+                                        {% if cart.variation.all %}
+                                            {% for item in cart.variation.all %}
                                                 {{item.variation_category | capfirst}} : {{item.variation_value | capfirst}} <br>
                 
                                             {% endfor %}

@@ -27,8 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+SECURE_CROSS_ORIGIN_OPENER_POLICY='same-origin-allow-popups'
+
 
 # Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -41,6 +44,7 @@ INSTALLED_APPS = [
     'category',
     'store',
     'carts',
+    'orders',
 ]
 
 MIDDLEWARE = [
