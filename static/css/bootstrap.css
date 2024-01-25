@@ -2386,8 +2386,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #3167eb;
-  border-color: #3167eb;
+  background-color: #ff9e36;
+  border-color: #ffb361;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4594,6 +4594,7 @@ input[type=button].btn-block {
   padding-left: 0;
   list-style: none;
   border-radius: 0.37rem;
+  margin-top: 150px;
 }
 
 .page-link {
@@ -6310,6 +6311,7 @@ button.bg-gray-light:focus {
 
 .border-top {
   border-top: 1px solid #e4e4e4 !important;
+  margin-top: 100px;
 }
 
 .border-right {

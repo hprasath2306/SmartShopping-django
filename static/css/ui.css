@@ -425,11 +425,15 @@ p:last-child {
   position: relative;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-bottom: -135px;
+  margin-top:-130px;
 }
 
 .brand-wrap .logo, .navbar-brand .logo {
   margin-right: 7px;
-  max-height: 42px;
+  max-height: 340px;
+  margin-left: -87px;
+  margin-top: 2px;
   display: inline-block;
 }
 

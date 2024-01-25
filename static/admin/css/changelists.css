@@ -164,7 +164,7 @@
     list-style-type: none;
 }
 
-#changelist-filter details > summary::-webkit-details-marker {
+#changelist-filter details > summary::-webkit-details-{
     display: none;
 }
 
