@@ -55,6 +55,7 @@ https://smartshopping.pythonanywhere.com/
 
 ## Screenshots
 ![HomePage](https://github.com/hprasath2306/SmartShopping-django/assets/142329080/9d98e6d9-7399-4308-9571-baafd210c9a9)
+![Dashboard](https://github.com/hprasath2306/SmartShopping-django/assets/142329080/bed90d12-946f-4b52-be8e-87219ca34515)
 
 
 
